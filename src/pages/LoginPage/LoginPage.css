@@ -1,0 +1,88 @@
+.LoginPage2{
+    display: flex;
+}
+.LoginPage2-1{
+    width: 50%;
+    align-items: center;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    align-content: stretch;
+    align-items: center;
+    justify-content: flex-start;
+}
+.LoginPage2-2{
+    width: 50%;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    align-content: stretch;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.LoginPage2-1-2{
+    width: 500px;
+    height: 300px;
+    border: solid 0.5px grey;
+    
+}
+.EmailLogin{
+    display: flex;
+    justify-content: space-around;
+    margin: 20px;
+}
+.EmailLogin1{
+    width: 30%;
+}
+.EmailLogin2{
+    width: 70%;
+}
+
+.PasswordLogin{
+    display: flex;
+    justify-content: space-around;
+    margin: 20px;
+
+}
+
+.PasswordLogin1{
+    width: 30%;
+
+}
+.PasswordLogin2{
+    width: 70%;
+
+}
+.login-form-button{
+    background-color: green;
+}
+
+.RegitersButton{
+    background-color: green;
+    width: 120px;
+    height: 40px;
+    text-align: center;
+    color: white;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.LoginPage1{
+    height: 80px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    border: solid 0.5px gray;
+    justify-content: center;
+    margin-bottom: 10px;
+}
+.LoginNavbar{
+    margin: 10px;
+    display: flex;
+    align-items: left;
+
+}

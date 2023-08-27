@@ -1,0 +1,28 @@
+.RegisterPage1{
+    height: 80px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    border: solid 0.5px gray;
+    justify-content: center;
+    margin-bottom: 10px;
+}
+.RegisterNavbar{
+    margin: 10px;
+    display: flex;
+    align-items: left;
+
+}
+
+.RegisterPage2{
+    margin: 20px;
+    display: flex;
+    justify-content: space-evenly;;
+}
+
+.RegisterPage2-2{
+    background-color: rgb(247,247,247);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

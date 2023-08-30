@@ -1,7 +1,17 @@
 {
-    "users":[{
-        "id":1,
-        "email": "Admin@gmail.com",
-        "password": "admin"
-    }]
+  "users": [
+    {
+      "id": 1,
+      "email": "Admin@gmail.com",
+      "password": "admin"
+    },
+    {
+      "email": "dqh318@gmail.com",
+      "password": "123",
+      "name": "123",
+      "phone": "08094553",
+      "isLogin": false,
+      "id": 2
+    }
+  ]
 }

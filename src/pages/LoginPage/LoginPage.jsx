@@ -40,7 +40,7 @@ function LoginPage() {
     if (user) {
       // Login successful, you can perform further actions here
       axios
-        .patch(`http://localhost:8000/users/${user.id}`, {
+        .patch(`users/${user.id}`, {
           isLogin: true,
         })
         .then((res) => {
@@ -51,7 +51,7 @@ function LoginPage() {
         });
       localStorage.setItem("isLoginId", user.id);
       console.log("Đăng nhập thành công:", user);
-      navigate("/homepage");
+      navigate("/");
     } else {
       // Invalid credentials
       console.log("Sai thông tin đăng nhập");

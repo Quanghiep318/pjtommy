@@ -28,19 +28,20 @@ function LoginPage() {
   };
   console.log(userData);
   console.log(loginData);
-  const handleSubmit = (event) => {
-    event.preventDefault();
-
+  
+  const navigate = useNavigate();
+  const onFinish = (values) => {
+    console.log("Received values of form: ", values);
+    // {username: 'dqh318@gmail.com', remember: true, password: '123'}
     const user = userData.find(
       (user) =>
-        user.email === loginData.email &&
-        user.password === loginData.password
+        user.email === values.username && user.password === values.password
     );
     console.log(user);
     if (user) {
       // Login successful, you can perform further actions here
       axios
-        .patch(`users/${user.id}`, {
+        .patch(`http://localhost:8000/users/${user.id}`, {
           isLogin: true,
         })
         .then((res) => {
@@ -56,10 +57,6 @@ function LoginPage() {
       // Invalid credentials
       console.log("Sai thông tin đăng nhập");
     }
-  };
-  const navigate = useNavigate();
-  const onFinish = (values) => {
-    console.log('Received values of form: ', values);
   };
   return (
     <div>
@@ -88,7 +85,7 @@ function LoginPage() {
           </div>
         <div className='EmailLogin2'>
         <Form.Item
-        onSubmit={handleSubmit}
+      
         name="username"
         rules={[
           {
@@ -164,6 +161,6 @@ function LoginPage() {
 
     </div>
   )
-}
+ }
 
 export default LoginPage

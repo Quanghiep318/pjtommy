@@ -12,6 +12,14 @@
       "phone": "08094553",
       "isLogin": false,
       "id": 2
+    },
+    {
+      "email": "123@gmail.com",
+      "password": "123",
+      "name": "123",
+      "phone": "12345678",
+      "isLogin": true,
+      "id": 3
     }
   ]
 }

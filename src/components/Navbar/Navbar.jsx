@@ -6,6 +6,7 @@ import Navbar from 'react-bootstrap/Navbar';
 import NavDropdown from 'react-bootstrap/NavDropdown';
 import '../Navbar/NavBar.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
+import { NavLink } from "react-router-dom";
 
 
 
@@ -29,7 +30,7 @@ function NavScrollExample() {
             <div className="navbar3">
             <div><input type="text" /></div>
             <div><i class="fa-solid fa-magnifying-glass"></i></div>
-              <div><span>ログイン/会員登録</span></div>
+            <div ><NavLink to={'./login'} className="NavLink">ログイン/会員登録</NavLink></div>
               <div>
             <i className="fa-regular fa-heart"></i>
             </div>

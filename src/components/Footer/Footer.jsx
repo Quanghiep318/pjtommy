@@ -6,9 +6,9 @@ function Footer() {
     <div className="Footer">
      <div className="row1">
        <div className="col-3">         
-         <div><a href="#"><h6>ログイン/会員登録</h6></a></div>
-         <div><a href="#">NEWS</a></div>
-         <div><a href="#">サステナビリティ</a></div>
+         <div><a href="/login" ><h6>ログイン/会員登録</h6></a></div>
+         <div><a href="#" >NEWS</a></div>
+         <div><a href="#" >サステナビリティ</a></div>
        </div>
        <div className="col-2">
          <div><h6>カスタマーサポート</h6></div>

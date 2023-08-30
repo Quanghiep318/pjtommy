@@ -57,3 +57,9 @@
     padding-top: 50px;
     font-size: 13px;
 }
+
+.row1 .col-3 a{
+    line-height: 0.5rem !important;
+    text-decoration-line: none;
+    color: white;
+}

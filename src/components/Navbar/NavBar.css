@@ -48,3 +48,9 @@
     height: 60px;
     
 }
+
+.NavLink{
+    line-height: 0.5rem !important;
+    text-decoration-line: none;
+    color: black
+}

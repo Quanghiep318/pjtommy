@@ -21,5 +21,15 @@
       "isLogin": true,
       "id": 3
     }
+  ],
+
+  "products": [
+    {
+      "id": 1,
+      "image": "../../../src/assets/img/sp01.jpg",
+      "name": "SP1",
+      "price": "10000"
+    }
+   
   ]
 }

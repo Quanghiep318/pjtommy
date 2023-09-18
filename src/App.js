@@ -9,15 +9,26 @@ import Navbar from './components/Navbar/Navbar.jsx';
 import Register from './pages/Register/Register.jsx';
 import NotFound from './pages/NotFound';
 import Cart from './pages/Cart/Cart.jsx';
+import db from "./db.json"
+import Table from './table';
 
 function App() {
-  return (
+  // const getHeadings = () =>{
+  //   return Object.keys(db[0])
+  // }
+  // return (
+  //   <div className="container">
+  //     <Table theadData={getHeadings()} tbodyData={db}/>
+  //   </div>
+  // )
+  // ;
+ return (
     <div className="App">
       <Navbar></Navbar>
       {/* <HomePage></HomePage> */}
       {/* <LoginPage></LoginPage> */}
       {/* <Register></Register> */}
-      <Routes>
+      <Routes>;
         <Route path='/' element={<HomePage></HomePage>}></Route>
         <Route path='/login' element={<LoginPage></LoginPage>}></Route>
         <Route path='/register' element={<Register></Register>}></Route>

@@ -1,6 +1,7 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
 import '../../pages/Cart/Cart.css'
+import Cartdata from './Cartdata'
 import sp01 from '../../../src/assets/img/sp01.jpg'
 import sp02 from '../../../src/assets/img/sp02.jpg'
 import sp03 from '../../../src/assets/img/sp03.jpg'
@@ -33,7 +34,7 @@ function Cart() {
                 <td><a href="#"><i className="far fa-window-close" /></a></td>
                 <td><img src="assets/img/products/product-img-1.jpg" alt /></td>
                 <td>SP</td>
-                <td>$85</td>
+                <td className="product-price">$85</td>
                 <td className="product-quantity"><input type="number" placeholder={0} /></td>
                 <td className="product-total">1</td>
               </tr>
@@ -97,75 +98,11 @@ function Cart() {
 {/* end cart */}
 
 {/* List item */}
+
 <div>
-<div class="containercart2">
-  <div class="containercart2-1" ><div id = "list" class="list">
-           
-           <div id = "item" class="item">
-             <img className="img" src= {sp01}/>
-             <div class="title">Name</div>
-             <div class="price">Price</div>
-             <button>Add To Card</button> 
-           </div>
-         </div>
-         <div id = "list" class="list">
-            
-            <div id = "item" class="item">
-              <img className="img" src= {sp01}/>
-              <div class="title">Name</div>
-              <div class="price">Price</div>
-              <button>Add To Card</button> 
-            </div>
-          </div>
-          <div id = "list" class="list">
-            
-            <div id = "item" class="item">
-              <img className="img" src= {sp01}/>
-              <div class="title">Name</div>
-              <div class="price">Price</div>
-              <button>Add To Card</button> 
-            </div>
-          </div></div>
-          <div class="containercart2-2">
-          <div id = "list" class="list">
-           
-           <div id = "item" class="item">
-             <img className="img" src= {sp01}/>
-             <div class="title">Name</div>
-             <div class="price">Price</div>
-             <button>Add To Card</button> 
-           </div>
-         </div>
-         <div id = "list" class="list">
-           
-           <div id = "item" class="item">
-             <img className="img" src= {sp01}/>
-             <div class="title">Name</div>
-             <div class="price">Price</div>
-             <button>Add To Card</button> 
-           </div>
-         </div>
-         <div id = "list" class="list">
-           
-           <div id = "item" class="item">
-             <img className="img" src= {sp01}/>
-             <div class="title">Name</div>
-             <div class="price">Price</div>
-             <button>Add To Card</button> 
-           </div>
-         </div>
-          </div>
-         
-         
-        
-        
-
-        </div>
-
-
-
+  <Cartdata></Cartdata>
 </div>
-    </div>
+</div>
 
   )
 }

@@ -26,37 +26,37 @@
   "products": [
     {
       "id": 1,
-      "image": "../../../src/assets/img/sp01.jpg",
+      "image": "sp01",
       "name": "SP1",
       "price": "10000"
     },
     {
       "id": 2,
-      "image": "../../../src/assets/img/sp02.jpg",
+      "image": "sp02",
       "name": "SP2",
       "price": "10000"
     },
     {
       "id": 3,
-      "image": "../../../src/assets/img/sp03.jpg",
+      "image": "sp03",
       "name": "SP3",
       "price": "10000"
     },
     {
       "id": 4,
-      "image": "../../../src/assets/img/sp04.jpg",
+      "image": "sp04",
       "name": "SP4",
       "price": "10000"
     },
     {
       "id": 5,
-      "image": "../../../src/assets/img/sp05.jpg",
+      "image": "sp05",
       "name": "SP5",
       "price": "10000"
     },
     {
       "id": 6,
-      "image": "../../../src/assets/img/sp06.jpg",
+      "image": "sp06",
       "name": "SP6",
       "price": "10000"
     }
